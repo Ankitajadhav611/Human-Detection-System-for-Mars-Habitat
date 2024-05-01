@@ -1,23 +1,9 @@
+# this code transfers images from desktop to microcontroller board
 import serial
 import time
 import os
 
 ser = serial.Serial('COM7', 115200) 
-# len_str = "hello world long \n\r"
-# print(len(len_str))
-# ser.write(b"hello world \n\r")
-# counter = 10
-# while (counter !=0) :
-#     image_file_path = 'test_image/image1_15.jpg'
-#     with open(image_file_path, 'rb') as f:
-#         image_data = f.read()
-#         length = len(image_data)
-#         #print(image_data)
-#         ser.write(image_data)
-#     ####time.sleep(5)
-#     print("send count ",counter)
-#     counter -=1
-
 folder_path = 'test_image'
 
 files = os.listdir(folder_path)
