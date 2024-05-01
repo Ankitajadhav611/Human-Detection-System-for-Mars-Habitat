@@ -1,3 +1,4 @@
+/// this main code transfer imagers serially from desktop to microcontroller board
 #include <Arduino.h>
 #include <SPI.h>
 #include "FS.h"
