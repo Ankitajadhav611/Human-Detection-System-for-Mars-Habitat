@@ -1,3 +1,4 @@
+# this python code serially read images from flash of the microcontroller board
 import serial
 import io
 from PIL import Image
